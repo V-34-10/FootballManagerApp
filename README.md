@@ -14,3 +14,5 @@ Current functionality:
 - Filter by command, viewing the player in detail;
 - Navigation (BottomNavigationView);
 - Modification of user data.
+
+[Download version](https://github.com/Vladyslav-Momot/EDKI/blob/main/EDKI-v0.1.1.apk](https://github.com/V-34-10/FootballManagerApp/blob/main/Football%20Manager%201.3.apk)
