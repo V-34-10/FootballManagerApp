@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp20"
+    android:padding="@dimen/dp20"
+    android:background="@drawable/bg_card_player">
+
+    <LinearLayout
+        android:id="@+id/descriptions_team"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp15"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/ivTeam"
+        app:layout_constraintEnd_toStartOf="@+id/ivTeam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivTeam">
+
+        <TextView
+            android:id="@+id/nameTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/name_team"
+            android:fontFamily="sans-serif"
+            android:text="@string/nameTeam"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+        <TextView
+            android:id="@+id/stadiumTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stadiumTeam"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/sp20"
+            android:textColor="@color/white"
+            android:contentDescription="@string/stadium_team"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:id="@+id/coachTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/coach_team"
+            android:fontFamily="sans-serif"
+            android:text="@string/coachTeam"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp20" />
+
+        <TextView
+            android:id="@+id/leagueTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/leagueTeam"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/sp20"
+            android:textColor="@color/white"
+            android:contentDescription="@string/league_team"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivTeam"
+        android:layout_width="@dimen/dp125"
+        android:layout_height="@dimen/dp175"
+        android:clickable="true"
+        android:contentDescription="@string/image_team"
+        android:focusable="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/shahtar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

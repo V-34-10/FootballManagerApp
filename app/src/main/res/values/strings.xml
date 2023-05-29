@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Football Manager</string>
+    <string name="unknown_user">Невідомий користувач</string>
+    <string name="path_users">users</string>
+    <string name="image_team">image_team</string>
+    <string name="name_team">name_team</string>
+
+    <string name="nameTeam">ФК Шахтар</string>
+    <string name="nameDynamo">ФК Динамо</string>
+    <string name="nameDesna">ФК Десна</string>
+    <string name="nameVeres">ФК Верес</string>
+    <string name="stadiumTeam">Донбас Арена</string>
+    <string name="stadiumDynamo">НСК Олімпійський</string>
+    <string name="stadiumDesna">ім. Юрія Гагаріна</string>
+    <string name="stadiumVeres">Авангард</string>
+    <string name="coachTeam">Ігор Йовічевич</string>
+    <string name="coachDynamo">Мірча Луческу</string>
+    <string name="coachDesna">Олександр Рябоконь</string>
+    <string name="coachVeres">Юрій Вірт</string>
+    <string name="leagueTeam">УПЛ</string>
+
+    <string name="stadium_team">stadium_team</string>
+    <string name="coach_team">coach_team</string>
+    <string name="league_team">league_team</string>
+    <string name="team_Shahtar">team_Shahtar</string>
+    <string name="team_Dynamo">team_Dynamo</string>
+    <string name="team_Desna">team_Desna</string>
+    <string name="team_Veres">team_Veres</string>
+    <string name="path_teams">teams</string>
+    <string name="unknown_team">Невідома команда</string>
+    <string name="title_teams_menu">Команди</string>
+    <string name="title_players_menu">Гравці</string>
+    <string name="title_profile_menu">Профіль</string>
+    <string name="about">Про себе</string>
+    <string name="user_image">user_image</string>
+    <string name="sign_out">Вихід</string>
+    <string name="email">Email</string>
+    <string name="nameUser">Ім\'я</string>
+    <string name="passUser">Пароль</string>
+    <string name="unknown_player">Невідомий гравець</string>
+    <string name="dialog_ok">dialog_ok</string>
+</resources>

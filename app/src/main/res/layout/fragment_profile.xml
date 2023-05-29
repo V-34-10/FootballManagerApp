@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_home"
+    tools:context=".ui.main.ProfileFragment">
+
+    <View
+        android:id="@+id/firstSection"
+        android:layout_width="320dp"
+        android:layout_height="575dp"
+        android:layout_marginTop="@dimen/dp50"
+        android:alpha="0.9"
+        android:background="@drawable/section_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp50"
+        android:layout_marginEnd="@dimen/dp20"
+        android:hint="@string/nameUser"
+        app:endIconDrawable="@drawable/ic_baseline_save_as_24"
+        app:endIconMode="custom"
+        app:layout_constraintEnd_toEndOf="@+id/firstSection"
+        app:layout_constraintStart_toStartOf="@+id/firstSection"
+        app:layout_constraintTop_toBottomOf="@+id/profileImageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            tools:ignore="TextContrastCheck">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp20"
+        android:hint="@string/email"
+        app:endIconDrawable="@drawable/ic_baseline_save_as_24"
+        app:endIconMode="custom"
+        app:layout_constraintEnd_toEndOf="@+id/firstSection"
+        app:layout_constraintStart_toStartOf="@+id/firstSection"
+        app:layout_constraintTop_toBottomOf="@+id/username_layout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            tools:ignore="TextContrastCheck">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="@dimen/dp0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginEnd="@dimen/dp20"
+        android:hint="@string/passUser"
+        app:endIconDrawable="@drawable/ic_baseline_save_as_24"
+        app:endIconMode="custom"
+        app:layout_constraintEnd_toEndOf="@+id/firstSection"
+        app:layout_constraintStart_toStartOf="@+id/firstSection"
+        app:layout_constraintTop_toBottomOf="@+id/email_layout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            tools:ignore="TextContrastCheck">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signOutButton"
+        android:layout_width="@dimen/dp180"
+        android:layout_height="@dimen/dp50"
+        android:layout_marginTop="@dimen/dp50"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/sign_out"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:iconGravity="start"
+        app:iconPadding="@dimen/dp4"
+        app:iconSize="@dimen/dp20"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_layout" />
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="@dimen/dp125"
+        android:layout_height="@dimen/dp125"
+        android:layout_marginTop="@dimen/dp50"
+        android:background="@drawable/round_userphoto"
+        android:contentDescription="@string/user_image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/firstSection"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/avatars" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

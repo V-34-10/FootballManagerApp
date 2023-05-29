@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738489316364",
+    "firebase_url": "https://football-teams-c8d98-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "football-teams-c8d98",
+    "storage_bucket": "football-teams-c8d98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738489316364:android:a04dfdc798a25963062a29",
+        "android_client_info": {
+          "package_name": "com.digijed.goplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738489316364-fjipm8cjlctive2aro8su7ah9mnunk0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digijed.goplayer",
+            "certificate_hash": "9e619133545cdf8839f51498f78f16abba88a602"
+          }
+        },
+        {
+          "client_id": "738489316364-nbc6e61vsuhot3g0rknk8migj2e35a49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC60juaqDdeSwX6kPKHr8Va8N2aOfCQ57o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738489316364-ik07cv6i23e05p1lcr152e3chf6u7v3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

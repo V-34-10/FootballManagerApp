@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TeamView">
+        <attr name="TV_selectedColor" format="color"/>
+        <attr name="TV_unSelectedColor" format="color"/>
+        <attr name="TV_nameTeam" format="reference" />
+        <attr name="TV_stadiumTeam" format="reference"/>
+        <attr name="TV_coachTeam" format="reference" />
+        <attr name="TV_leagueTeam" format="reference"/>
+        <attr name="TV_imgTeam" format="reference"/>
+    </declare-styleable>
+</resources>
