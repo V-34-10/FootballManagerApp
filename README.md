@@ -15,4 +15,4 @@ Current functionality:
 - Navigation (BottomNavigationView);
 - Modification of user data.
 
-[Download version][(V-34-10/FootballManagerApp/blob/main/Football%20Manager%201.3.apk)]
+[Download version](V-34-10/FootballManagerApp/blob/main/Football%20Manager%201.3.apk)
