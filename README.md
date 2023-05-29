@@ -5,12 +5,12 @@ Football Manager mobile application to help the football coach in his work
 
 Future opportunities:
 - 6 tabs, namely: Teams, Players, Schedule, Matches, Transfers, Profile;
-- adding, modifying information, analyzing and planning players, viewing match results and entering statistics.
+- Add and delete information, analyze and schedule players for the game, view match results, and keep statistics;
+- Saving match results to a file
 
 Current functionality:
-- login through a Google account (Firebase Auth);
-- tabs: Teams, Players, Profile;
-- filter by command,
-viewing the player in detail;
-- navigation (BottomNavigationView);
-- modification of user data.
+- Login through a Google account (Firebase Auth);
+- Tabs: Teams, Players, Profile;
+- Filter by command, viewing the player in detail;
+- Navigation (BottomNavigationView);
+- Modification of user data.
